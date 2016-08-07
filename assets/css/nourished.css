@@ -3990,7 +3990,7 @@ body.noscroll {
   }
 
   .navbar-transparent {
-    background-color: transparent;
+    background-color: #fff;  
   }
 
   .wrapper {
@@ -4063,7 +4063,7 @@ body.noscroll {
   }
 
   .navbar-transparent .navbar-brand {
-    color: #FFFFFF;
+    color: #999;
   }
 }
 @-webkit-keyframes fadeIn {
@@ -4582,9 +4582,15 @@ body {
 }
 /*          Changes for small display      */
 @media (max-width: 767px) {
-  .navbar-transparent {
+ /* .navbar-transparent {
     padding-top: 0;
     background-color: rgba(0, 0, 0, 0.45);
+  } */
+ 
+    
+  .navbar-header > a {
+    padding-top:0;
+   
   }
 
   #bodyClick {
@@ -4904,7 +4910,7 @@ body {
 
 /* Material Design CSS */
 
-.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark { color: #999; }
 .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
 
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
