@@ -4901,3 +4901,59 @@ body {
     padding: 0;
   }
 }
+
+/* Material Design CSS */
+
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+.popover, .tooltip-inner {
+  color: #555555;
+  line-height: 1.5em;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+
+
+.tooltip.in {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0px, 0);
+  -moz-transform: translate3d(0, 0px, 0);
+  -o-transform: translate3d(0, 0px, 0);
+  -ms-transform: translate3d(0, 0px, 0);
+  transform: translate3d(0, 0px, 0);
+}
+
+.tooltip {
+  opacity: 0;
+  transition: opacity, transform .2s ease;
+  -webkit-transform: translate3d(0, 5px, 0);
+  -moz-transform: translate3d(0, 5px, 0);
+  -o-transform: translate3d(0, 5px, 0);
+  -ms-transform: translate3d(0, 5px, 0);
+  transform: translate3d(0, 5px, 0);
+}
+.tooltip.left .tooltip-arrow {
+  border-left-color: #FFFFFF;
+}
+.tooltip.right .tooltip-arrow {
+  border-right-color: #FFFFFF;
+}
+.tooltip.top .tooltip-arrow {
+  border-top-color: #FFFFFF;
+}
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #FFFFFF;
+}
+
+.tooltip-inner {
+  padding: 10px 15px;
+  min-width: 130px;
+}
+
+/* END Material Design CSS */
